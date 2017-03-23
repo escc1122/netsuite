@@ -21,7 +21,7 @@ define(['N/plugin','N/redirect'], function(plugin,redirect) {
 //                }
                     
                 	redirect.redirect({
-            	    url: 'http://tw.shopping99.com/woman/singlepage/index.jsp',
+            	    url: 'https://www.google.com.tw',
             	    parameters: {'productId':pl.getPI()} 
             	});
                 
