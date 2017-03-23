@@ -6,7 +6,10 @@ define(['N/record'], function(record) {
 	var tmp = {
         onRequest: function(options) {
                 
+		//原生record
         	var type = record.Type.EMPLOYEE;
+		//custom record
+		//var type = 'customrecord_member_info';
         	var objRecord = record.load({
         	    type: type, 
         	    id: '130'
