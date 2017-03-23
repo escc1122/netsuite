@@ -9,20 +9,16 @@ define(['N/plugin'], function(plugin) {
         onRequest: function(options) {
                 options.response.write('aaaaaaaaaaaaaa'+ '\n');
       
-		//netsuite/suitescript2.0/plugin/plugin.js
                     var pl = plugin.loadImplementation({
-                        type: 'customscript433'//plugin的id
+                        type: 'customscript433'//plugin嚙踝蕭id
                     });
                     options.response.write(pl.doTheMagic({
                         operand1: 10,
                         operand2: 20
-                    }) + '\n');
-                   
-            	});
+                    }) + '\n');      
                 
         }
     };
-	
 	
     return tmp;
 });
