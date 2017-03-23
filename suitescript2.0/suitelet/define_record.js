@@ -12,7 +12,7 @@ define(['N/record'], function(record) {
 		//var type = 'customrecord_member_info';
         	var objRecord = record.load({
         	    type: type, 
-        	    id: '130'
+        	    id: '130' //INTERNAL ID
         	});
         	var array = objRecord.getFields();
         	for (var i=0;i<array.length;i++){
