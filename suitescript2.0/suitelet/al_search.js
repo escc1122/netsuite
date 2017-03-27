@@ -8,6 +8,7 @@
      	options.response.write(search.Operator.IS+"<br>");
      	options.response.write(search.Type.EMPLOYEE+"<br>");
      	
+	//如果沒有要用save serach 就不要給save_id
      	var mySalesOrderSearch = search.create({
      	    type: search.Type.EMPLOYEE, // or customer record id
      	    title: 'al_search',
