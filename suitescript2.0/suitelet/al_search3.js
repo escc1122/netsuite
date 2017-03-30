@@ -42,7 +42,7 @@
  	            });
  	            
                 options.response.write("==internal_id===>"+internal_id+"<br>");
-                return true;    
+                return true;   //很重要 不寫會只作一次
  	            
         });
      	
