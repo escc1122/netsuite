@@ -3,6 +3,6 @@
  */
 require.config({
 	paths: {
-        'al_plug2': '/SuiteScripts/altest/al_plug2'
+        'al_plug2': '/plugin/plugin'
     }
 });
