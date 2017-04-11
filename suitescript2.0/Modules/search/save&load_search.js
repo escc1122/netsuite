@@ -61,6 +61,7 @@
             
             
             options.response.write(id+"=====>"+email+"====>"+iso+"<br>");
+		return true;   //很重要 不寫會只作一次
         });
      	
      	
