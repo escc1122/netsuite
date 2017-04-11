@@ -10,6 +10,9 @@ define(function() {
         getPI : function(){
     		return this.getPICode();
     	},
+        otherMethod : function(){
+            return 'foo';
+        },
         doTheMagicCode: function(inputObj) {
             var operand1 = parseFloat(inputObj.operand1);
             var operand2 = parseFloat(inputObj.operand2);
