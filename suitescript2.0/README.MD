@@ -6,7 +6,7 @@ http://www.ruanyifeng.com/blog/2012/10/asynchronous_module_definition.html
 http://www.ruanyifeng.com/blog/2012/11/require_js.html
 
 
-##CommonJS
+## CommonJS
 
 2009年，美國程序員Ryan Dahl創造了node.js項目，將javascript語言用於服務器端編程。
 
@@ -22,7 +22,7 @@ node.js的模塊系統，就是參照CommonJS規範實現的。在CommonJS中，
 
     　　math.add(2,3); // 5
 
-##瀏覽器環境
+## 瀏覽器環境
 有了服務器端模塊以後，很自然地，大家就想要客戶端模塊。而且最好兩者能夠兼容，一個模塊不用修改，在服務器和瀏覽器都可以運行。
 
 但是，由於一個重大的侷限，使得CommonJS規範不適用於瀏覽器環境。還是上一節的代碼，如果在瀏覽器中運行，會有一個很大的問題，你能看出來嗎？
@@ -37,7 +37,7 @@ node.js的模塊系統，就是參照CommonJS規範實現的。在CommonJS中，
 
 因此，瀏覽器端的模塊，不能採用"同步加載"（synchronous），只能採用"異步加載"（asynchronous）。這就是AMD規範誕生的背景。
 
-##AMD
+## AMD
 AMD是"Asynchronous Module Definition"的縮寫，意思就是"異步模塊定義"。它採用異步方式加載模塊，模塊的加載不影響它後面語句的運行。所有依賴這個模塊的語句，都定義在一個回調函數中，等到加載完成之後，這個回調函數才會運行。
 
 AMD也採用require()語句加載模塊，但是不同於CommonJS，它要求兩個參數：
