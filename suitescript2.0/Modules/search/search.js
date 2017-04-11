@@ -33,6 +33,7 @@
             });
 
             options.response.write(name+"=====>"+email+"<br>");
+		return true;   //很重要 不寫會只作一次
         });
      	
      	
