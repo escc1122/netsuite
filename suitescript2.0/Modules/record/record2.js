@@ -8,12 +8,10 @@ define(['N/record'], function(record) {
         	var parameters = options.request.parameters;
         	
         	var id = parameters.id;
-        	var recordType = parameters.recordType;
                 
 //        	var type = 'customrecord_aaaaa_bbbb';
-//        	var type = record.Type.SALES_ORDER;
+        	var type = record.Type.SALES_ORDER;
 //        	var type = record.Type.CUSTOMER;
-        	var type = eval('record.Type.'+recordType);
         	var objRecord = record.load({
         	    type: type, 
         	    id: id
