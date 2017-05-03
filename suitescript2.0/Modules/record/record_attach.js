@@ -18,6 +18,22 @@
             });                	
 
 	 	}
+		 
+record.attach({
+    record: {
+        type: 'customrecord211',
+        id: '5'
+    },
+    to: {
+        type: 'customrecord_shantest',
+        id: '503'
+    },attributes:{
+    	'field' : 'custrecord99'  //如果自訂關連 要寫出關聯欄位
+    		}
+});
+		 
+
+		 
 	 }
 	 return tmp;
     
