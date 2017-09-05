@@ -1,7 +1,6 @@
 /**
  * @NApiVersion 2.x
  * @NScriptType Suitelet
- * @NModuleScope SameAccount
  */
 define(['N/record'],
 function(record) {
